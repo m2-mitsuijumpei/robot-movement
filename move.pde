@@ -30,7 +30,7 @@ void move(){
 }
 
 void screw(){
-  Pz = (millis()%1000);
+  Pz = (millis()%800);
   Px = 500;
   Py = 0;
 }
