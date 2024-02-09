@@ -111,7 +111,6 @@ void draw() {
   box(arm3W,arm3D,arm3L);
   
   //wiper
-  rotateZ(θ4);
   translate(0,0,arm3L/2+wiperL/2);
   fill(150);
   box(wiperW,wiperD,wiperL);
