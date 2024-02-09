@@ -35,7 +35,4 @@ void screw(){
   Px = 500;
   Py = 0;
 }
-/*void auto(){
-  if ((Px=0)
-  
-  if */
+
