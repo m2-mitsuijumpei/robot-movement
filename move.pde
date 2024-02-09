@@ -1,7 +1,6 @@
 float θ1 = 0;
 float θ2 = 0;
 float θ3 = 0;
-float θ4 = 0;
 
 float A = 0;
 float M = 0;
@@ -11,7 +10,7 @@ float C3 = 0;
 float S3 = 0;
 float L = 0;
 
-float Px = 300;
+float Px = 400;
 float Py = 0;
 float Pz = 0;
 
