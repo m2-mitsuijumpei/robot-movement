@@ -27,10 +27,6 @@ float wiperW = 400;
 float wiperD = 10;
 float wiperL = 70;
 
-float angle1 = 0;
-float angle2 = 0;
-float angle3 = 0;
-
 float dif = 1.0;
 
 int pattern1 = 1;
@@ -41,33 +37,27 @@ void draw() {
     background(255);
     if(keyPressed){
     if(key == 'a'){
-      //angle1 = angle1 + dif;
       Px += 2;
     }
     if(key == 'A'){
-      //angle1 = angle1 - dif;
       Px -= 2;
     }
     if(key == 'b'){
-      //angle2 = angle2 + dif;
       Py += 2;
     }
     if(key == 'B'){
-      //angle2 = angle2 - dif;
       Py -= 2;
     }
     if(key == 'g'){
-      //angle3 = angle3 + dif;
       Pz += 2;
     }
     if(key == 'G'){
-      //angle3 = angle3 - dif;
       Pz -= 2;
     }
     if(key == 'R'){
-      angle1 = 0;
-      angle2 = 0;
-      angle3 = 0;
+      Px = 400;
+      Py = 0;
+      Pz = 0;
     }
     if (key == '1'){
       pattern1 = 1;
@@ -127,8 +117,6 @@ void draw() {
   box(wiperW,wiperD,wiperL);
   
 }
-
-
 
 
 // マウス操作に応じたMouseCameraの関数を呼び出す
